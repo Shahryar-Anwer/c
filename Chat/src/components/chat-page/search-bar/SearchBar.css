@@ -1,0 +1,40 @@
+.chat-page-parent-messages-search {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  height: 40px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+}
+
+.chat-page-parent-messages-search-icon {
+  display: flex;
+  align-items: center;
+}
+
+.chat-page-parent-messages-search-input {
+  width: 100%;
+}
+
+.chat-page-parent-messages-search-input-field,
+.chat-page-parent-messages-search-input-field::placeholder {
+  color: rgba(0, 0, 0, 0.45);
+  font-family: "Jaldi", sans-serif;
+  opacity: 1; /* Firefox */
+  font-size: 20px;
+}
+
+.chat-page-parent-messages-search-input input {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+}
+
+.chat-page-parent-messages-search-input input:focus {
+  outline: none;
+}

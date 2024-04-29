@@ -1,0 +1,54 @@
+.received-messages-parent {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 12.5px;
+}
+
+.received-messages-profile-picture {
+  width: 42.5px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.received-messages-profile-picture img {
+  width: 42.5px;
+}
+
+.received-messages-indiviual {
+  background-color: #f4f4f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.received-messages-indiviual-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.received-messages-indiviual p {
+  font-family: "Jaldi", sans-serif;
+  opacity: 1;
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.received-messages-indiviual span {
+  font-family: "Jaldi", sans-serif;
+  opacity: 1;
+  font-size: medium;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.45);
+}

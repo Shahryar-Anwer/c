@@ -1,0 +1,82 @@
+.chat-page-parent {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.chat-page-parent-messages {
+  color: black;
+  font-family: "Jaldi", sans-serif;
+  opacity: 1; /* Firefox */
+  font-size: xx-large;
+  font-weight: 600;
+  margin: 0;
+}
+
+.chat-page-message-list {
+  height: 90vh;
+  overflow: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.chat-page-message-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.chat-page-message-list {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.chat-page-message-screen {
+  display: none;
+}
+
+.chat-page-bottom-navigation {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.chat-page-no-message-screen {
+  display: none;
+}
+
+/* Desktop Devices */
+@media (min-width: 1024px) {
+  .chat-page-parent {
+    display: flex;
+    gap: 15px;
+    height: 90vh;
+  }
+
+  .chat-page-all-message-list-and-search-bar {
+    width: 40%;
+    height: 90vh;
+    overflow: scroll;
+    scrollbar-color: transparent transparent;
+  }
+
+  .chat-page-message-screen {
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .chat-page-no-message-screen {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jaldi", sans-serif;
+    opacity: 1; /* Firefox */
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .chat-page-bottom-navigation {
+    display: none;
+  }
+}

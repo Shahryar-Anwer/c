@@ -1,0 +1,98 @@
+.chat-profile-parent {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.chat-profile-display-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.chat-profile-display-picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.chat-profile-display-picture-online {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #27ae60;
+  position: absolute;
+  right: 2.5px;
+  bottom: 2.5px;
+}
+
+/*  */
+.chat-profile-name-and-message {
+  width: 75%;
+}
+
+.chat-profile-name-and-message h1 {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: "Jaldi", sans-serif;
+  opacity: 1; /* Firefox */
+  font-size: x-large;
+  font-weight: 600;
+  margin: 0;
+}
+
+.chat-profile-name-and-message p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.45);
+  font-family: "Jaldi", sans-serif;
+  margin-top: -10px;
+  max-height: 50px;
+  overflow: hidden;
+}
+
+/*  */
+.chat-profile-time {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Jaldi", sans-serif;
+  font-weight: 600;
+  font-size: large;
+}
+
+/*  */
+.chat-profile-tick {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*  */
+.chat-profile-number-of-pending-messages {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chat-profile-number-of-pending-messages span {
+  background-color: #27ae60;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-family: "Jaldi", sans-serif;
+  font-weight: 500;
+  font-size: small;
+}
+
+@media (min-width: 768px) {
+
+  .chat-profile-parent {
+    justify-content: space-evenly;
+  }
+
+}

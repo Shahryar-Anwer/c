@@ -1,0 +1,77 @@
+.sent-messages-parent {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 12.5px;
+}
+
+.sent-messages-profile-picture {
+  width: 42.5px;
+  padding-bottom: 20px;
+  visibility: hidden;
+}
+
+.sent-messages-profile-picture img {
+  width: 42.5px;
+}
+
+.sent-messages-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sent-messages-indiviual {
+  background-color: #f4f4f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.sent-messages-indiviual img{
+    max-width: calc(90vw - 85px);
+}
+
+.sent-messages-indiviual-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sent-messages-indiviual p {
+  font-family: "Jaldi", sans-serif;
+  opacity: 1; /* Firefox */
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.sent-messages-indiviual span {
+  font-family: "Jaldi", sans-serif;
+  opacity: 1; /* Firefox */
+  font-size: medium;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.sent-messages-indiviual-document{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: "Jaldi", sans-serif;
+  opacity: 1; /* Firefox */
+  font-size: larger;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
